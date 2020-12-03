@@ -1,5 +1,5 @@
 {
-  "name": "gettingstarted",
+  "name": "webpack-study",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"webpack"
   },
-  "author": "",
+  "author": "renwanjun",
   "license": "ISC",
   "devDependencies": {
     "webpack-cli": "^4.2.0"
