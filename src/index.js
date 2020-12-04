@@ -1,6 +1,8 @@
 import _ from 'lodash'
 import './style.css'
 import Img from './new-year.jpg'
+import student from './data.json'
+import xml from './data.xml'
 
 function component() {
     var element = document.createElement('div');
@@ -15,5 +17,5 @@ function component() {
     element.appendChild(image)
     return element;
 }
-
+console.log(typeof xml)
 document.body.appendChild(component());
