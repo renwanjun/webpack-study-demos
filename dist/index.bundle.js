@@ -301,11 +301,9 @@
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/*!**********************!*\
+/*!**********************!*
   !*** ./src/index.js ***!
   \**********************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_require__.e, __webpack_require__.t, __webpack_require__.* */
-eval("\n\nfunction getComponent() {\n    var element = document.createElement('div');\n\n    return __webpack_require__.e(/*! import() */ \"vendors-node_modules_lodash_lodash_js\").then(__webpack_require__.t.bind(__webpack_require__, /*! lodash */ \"./node_modules/lodash/lodash.js\", 23)).then(({default:_})=>{\n        const element=document.createElement('div')\n        element.innerHTML=_.join(['Hello','webpack'],'')\n        return element\n    }).catch(error=>'An error occurred while loading the component')\n}\n\ngetComponent.then(component=>{\n    document.body.appendChild(component);\n})\n\n\n//# sourceURL=webpack://webpack-study/./src/index.js?");
+eval("\n\nfunction getComponent() {\n    var element = document.createElement('div');\n\n    return __webpack_require__.e(/*! import() */ \"vendors-node_modules_lodash_lodash_js\").then(__webpack_require__.t.bind(__webpack_require__, /*! lodash */ \"./node_modules/lodash/lodash.js\", 23)).then(({default:_})=>{\n        const element=document.createElement('div')\n        element.innerHTML=_.join(['Hello','webpack'],'')\n        return element\n    }).catch(error=>'An error occurred while loading the component')\n}\n\n// async await\n// async funtion getComponent(){\n//     var element = document.createElement('div');\n//     const { default: _ } = await import('lodash')\n//     const element = document.createElement('div')\n//     element.innerHTML = _.join(['Hello', 'webpack'], '')\n//     return element\n// }\n\ngetComponent().then(component => {\n    document.body.appendChild(component);\n})\n\n\n//# sourceURL=webpack://webpack-study/./src/index.js?");
 /******/ })()
 ;
