@@ -10,9 +10,13 @@
   "author": "renwanjun",
   "license": "ISC",
   "devDependencies": {
+    "exports-loader": "^1.1.1",
     "imports-loader": "^1.2.0",
     "webpack": "^5.9.0",
     "webpack-cli": "^4.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "whatwg-fetch": "^3.5.0"
+  }
 }
