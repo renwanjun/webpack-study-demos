@@ -1,4 +1,4 @@
-
+const { file, parse } = require('./globals.js') 
 
 function component() {
     var element = document.createElement('div');
