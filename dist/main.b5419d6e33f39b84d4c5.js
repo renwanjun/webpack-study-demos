@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_study=self.webpackChunkwebpack_study||[]).push([[179],{138:(e,n,c)=>{"use strict";var t,d,a=c(486),l=c.n(a);document.body.appendChild((t=document.createElement("div"),d=document.createElement("button"),t.innerHTML=l().join(["Hello","webpack"]," "),d.innerHTML="Click me and check the console!",t.appendChild(d),t))}},0,[[138,666,216]]]);
