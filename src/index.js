@@ -13,6 +13,7 @@ function component() {
 
     var image=new Image()
     image.src=Img
+    image.style.width="100%"
 
     element.appendChild(image)
     return element;
