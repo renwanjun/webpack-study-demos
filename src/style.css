@@ -1,10 +1,31 @@
-html,body{
+@font-face {
+  font-family: Amstrike;
+  src: url('./fonts/Amstrike.eot');
+  /*ie兼容模式 */
+  src: url('./fonts/Amstrike.eot?#iefix') format('embedded-opentype'),
+    /* ie6-ie8*/
+    url('./fonts/Amstrike.woff') format('woff'),
+    /*现代浏览器*/
+    url('./fonts/Amstrike.ttf') format('ttf'),
+    /*Safari,Android,iOS*/
+    url('./fonts/Amstrike.svg') format('svg');
+  /*Legacy iOS*/
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
 }
+
+h2 {
+  color: brown;
+  font-family:Amstrike;
+}
+
 .hello {
-    color: red;
-    /* background: url(./new-year.jpg); */
-  }
+  /* color: red; */
+  /* background: url(./new-year.jpg); */
+}

@@ -14,15 +14,12 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpe?g|gif)$/,
-                use: [
-                    'file-loader'
-                ]
+                // 在 webpack 5 中，可以使用内置的 Asset Modules，我们可以轻松地将这些内容混入我们的系统中
+                type: 'asset/resource'
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: [
-                    'file-loader'
-                ]
+                type:'asset/resource'
             },
             {
                 test: /\.(csv|tsv)$/,
