@@ -1,14 +1,14 @@
 @font-face {
   font-family: Amstrike;
-  src: url('./fonts/Amstrike.eot');
+  src: url('fonts/Amstrike.eot');
   /*ie兼容模式 */
-  src: url('./fonts/Amstrike.eot?#iefix') format('embedded-opentype'),
+  src: url('fonts/Amstrike.eot?#iefix') format('embedded-opentype'),
     /* ie6-ie8*/
-    url('./fonts/Amstrike.woff') format('woff'),
+    url('fonts/Amstrike.woff') format('woff'),
     /*现代浏览器*/
-    url('./fonts/Amstrike.ttf') format('ttf'),
+    url('fonts/Amstrike.ttf') format('ttf'),
     /*Safari,Android,iOS*/
-    url('./fonts/Amstrike.svg') format('svg');
+    url('fonts/Amstrike.svg') format('svg');
   /*Legacy iOS*/
 }
 
@@ -22,7 +22,7 @@ body {
 
 h2 {
   color: brown;
-  font-family:Amstrike;
+  font-family: Amstrike;
 }
 
 .hello {
