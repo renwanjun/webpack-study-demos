@@ -14,7 +14,11 @@ module.exports={
     plugins:[
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title:'Output Management'
+            title:'Output Management3',
+            // filename:'assets/hello.html',
+            template:'index.html',
+            hash:true,
+            cache:true
         })
     ]
 }
