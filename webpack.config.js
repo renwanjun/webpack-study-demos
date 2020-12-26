@@ -19,7 +19,7 @@ module.exports = {
   },
   optimization:
   {
-    // moduleIds: 'deterministic',
+    moduleIds: 'deterministic', 
     // 提取引导代码 runtime.js
     runtimeChunk:'single',
     // 将第三方库(library)（例如 lodash 或 react）提取到单独的 vendor chunk 文件中
